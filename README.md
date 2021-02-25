@@ -15,3 +15,9 @@
 - การ Time Zone ของ container 
 
       docker exec -it container-id cat /etc/timezone
+      
+- การดู Log ของ container 
+
+      docker logs container-id
+
+Ref : https://docs.docker.com/engine/reference/commandline/logs/
