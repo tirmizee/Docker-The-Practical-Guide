@@ -20,4 +20,16 @@
 
       docker logs container-id
 
+
+### Docker machine for Windown
+
+- เชคสถานะการทำงาน
+
+      docker-machine status
+
+- ดู IP Address 
+
+      docker-machine ip
+
+
 Ref : https://docs.docker.com/engine/reference/commandline/logs/
