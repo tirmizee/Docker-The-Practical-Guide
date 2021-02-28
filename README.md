@@ -1,6 +1,10 @@
 # Docker-The-Practical-Guide
 
-https://docs.docker.com/engine/images/architecture.svg
+<p align="center">
+  <img src="https://docs.docker.com/engine/images/architecture.svg" width="400">
+</p>
+
+
 
 - การดู version docker
 
