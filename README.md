@@ -1,7 +1,7 @@
 # Docker-The-Practical-Guide
 
 <p align="center">
-  <img src="https://docs.docker.com/engine/images/architecture.svg" width="400">
+  <img src="https://docs.docker.com/engine/images/architecture.svg" width="500">
 </p>
 
 
