@@ -1,5 +1,7 @@
 # Docker-The-Practical-Guide
 
+https://docs.docker.com/engine/images/architecture.svg
+
 - การดู version docker
 
       docker -v
