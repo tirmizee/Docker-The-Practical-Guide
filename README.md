@@ -31,3 +31,4 @@ Ref : https://docs.docker.com/engine/reference/commandline/logs/
 ### Ref
 
 - https://damrongs.medium.com/%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89-docker-%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87-insecure-registry-a773052f2b74
+- https://www.youtube.com/watch?v=pTFZFxd4hOI
