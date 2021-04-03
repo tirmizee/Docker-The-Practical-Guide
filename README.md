@@ -13,6 +13,10 @@
 - การดู iamges ที่มีทั้งหมด
 
       docker images
+      
+- สร้างอิมเมจจาก Dockerfile ในไดเร็กทอรีปัจจุบัน
+
+      docker build -t
 
 - การดูวันที่ของ container 
 
