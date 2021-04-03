@@ -26,10 +26,14 @@
 
       docker exec -it container-id date
 
-- แสดงการแมปพอร์ต (หรือเฉพาะ) สำหรับคอนเทนเนอร์
+- แสดงการแมปพอร์ต (หรือเฉพาะ) สำหรับ container
 
       docker port [CONTAINER]
-     
+
+- แสดงกระบวนการทำงานใน container
+
+      docker top [CONTAINER]
+
 - การ Time Zone ของ container 
 
       docker exec -it container-id cat /etc/timezone
