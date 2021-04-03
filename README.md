@@ -34,6 +34,10 @@
 
       docker top [CONTAINER]
 
+- สดงสถิติการใช้ทรัพยากรแบบสดของ
+
+      docker stats [CONTAINER]
+
 - การ Time Zone ของ container 
 
       docker exec -it container-id cat /etc/timezone
