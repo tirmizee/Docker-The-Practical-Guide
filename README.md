@@ -20,9 +20,10 @@
 
 - สร้างอิมเมจจาก Dockerfile ในไดเร็กทอรีปัจจุบัน
 
-      docker build -t
+      #เพิ่ม -t เพื่อระบุชื่อ tag
+      docker build -t shykes/myapp .
       
-      #เพื่อชี้ไปที่ Dockerfile ที่ใดก็ได้ในระบบไฟล์ของคุณ
+      #เพิ่ม -f เพื่อชี้ไปที่ Dockerfile ที่ใดก็ได้ในระบบไฟล์ของคุณ
       docker build -f /path/to/a/Dockerfile . 
 
 - การดูวันที่ของ container 
