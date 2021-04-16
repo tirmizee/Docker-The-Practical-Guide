@@ -21,6 +21,9 @@
 - สร้างอิมเมจจาก Dockerfile ในไดเร็กทอรีปัจจุบัน
 
       docker build -t
+      
+      #เพื่อชี้ไปที่ Dockerfile ที่ใดก็ได้ในระบบไฟล์ของคุณ
+      docker build -f /path/to/a/Dockerfile . 
 
 - การดูวันที่ของ container 
 
