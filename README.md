@@ -42,7 +42,7 @@
 
       docker stats [CONTAINER]
 
-- การ Time Zone ของ container 
+- การดู Time Zone ของ container 
 
       docker exec -it container-id cat /etc/timezone
       
