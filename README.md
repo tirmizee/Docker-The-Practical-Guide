@@ -41,6 +41,10 @@
 - สดงสถิติการใช้ทรัพยากรแบบสดของ
 
       docker stats [CONTAINER]
+      
+- รัน command ใน container ที่กำลังทำงาน
+
+      docker exec -it ubuntu_bash bash
 
 - การดู Time Zone ของ container 
 
