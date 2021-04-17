@@ -44,6 +44,8 @@
       
 - รัน command ใน container ที่กำลังทำงาน
 
+      docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
       docker exec -it ubuntu_bash bash
 
 - การดู Time Zone ของ container 
