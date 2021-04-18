@@ -46,6 +46,8 @@
 
       docker image prune -a
       
+      docker image prune -a --force --filter "until=240h"
+      
       docker image prune -a --force --filter "until=2017-01-04T00:00:00"
  
 - สดงข้อมูลโดยละเอียดเกี่ยวกับ image
