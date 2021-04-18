@@ -58,7 +58,7 @@
       
 - container restrt (no, on-failure, unless-stopped, always)
 
-      docker run -d --restartalways redis
+      docker run -d --restart always redis
 
 Ref : https://docs.docker.com/engine/reference/commandline/logs/
 
