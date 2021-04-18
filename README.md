@@ -55,6 +55,10 @@
 - การดู Log ของ container 
 
       docker logs container-id
+      
+- container restrt (no, on-failure, unless-stopped, always)
+
+      docker run -d --restartalways redis
 
 Ref : https://docs.docker.com/engine/reference/commandline/logs/
 
