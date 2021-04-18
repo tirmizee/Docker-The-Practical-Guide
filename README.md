@@ -49,6 +49,10 @@
       docker image prune -a --force --filter "until=240h"
       
       docker image prune -a --force --filter "until=2017-01-04T00:00:00"
+      
+      docker image prune --filter="label=deprecated"
+      
+      docker image prune --filter="label=maintainer=john"
  
 - สดงข้อมูลโดยละเอียดเกี่ยวกับ image
 
