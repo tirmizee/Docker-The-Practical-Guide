@@ -41,7 +41,13 @@
 - สดงสถิติการใช้ทรัพยากรแบบสดของ
 
       docker stats [CONTAINER]
-  
+ 
+- ลบ image ที่ไม่ได้ใช้
+
+      docker image prune -a
+      
+      docker image prune -a --force --filter "until=2017-01-04T00:00:00"
+ 
 - สดงข้อมูลโดยละเอียดเกี่ยวกับ image
 
       docker image inspect 24ac737a7cd5
