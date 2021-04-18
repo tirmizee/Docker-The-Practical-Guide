@@ -41,7 +41,11 @@
 - สดงสถิติการใช้ทรัพยากรแบบสดของ
 
       docker stats [CONTAINER]
-      
+  
+- สดงข้อมูลโดยละเอียดเกี่ยวกับ image
+
+      docker image inspect 24ac737a7cd5
+ 
 - รัน command ใน container ที่กำลังทำงาน
 
       docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
