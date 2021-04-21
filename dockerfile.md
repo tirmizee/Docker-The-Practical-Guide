@@ -8,6 +8,8 @@
 
 #### FROM
 
+ - ###### เริ่มต้นขั้นตอนการสร้าง  Base Image. Dockerfile ที่ถูกต้องจะต้องเริ่มต้นด้วยคำสั่ง FROM
+
 #### LABEL
 
 #### ENV
@@ -50,3 +52,6 @@
 
 - ###### ลดจำนวนเลเยอร์ให้น้อยที่สุด
 
+### Reference
+
+- https://docs.docker.com/glossary
