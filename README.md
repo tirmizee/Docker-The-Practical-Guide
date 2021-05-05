@@ -72,9 +72,9 @@
 
       docker logs container-id
 
-- run และ remove container อัตโนมัติเมื่อ container หยุดทำงานหรือไม่ได้ใช้
+- รัน และ remove container อัตโนมัติเมื่อ container หยุดทำงานหรือไม่ได้ใช้ (--rm)
 
-      docker run -d <b>--rm</b> -p 1000:9000 spring-boot-add
+      docker run -d --rm -p 1000:9000 spring-boot-add
 
 - container restart (no, on-failure, unless-stopped, always)
 
