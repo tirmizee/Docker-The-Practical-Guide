@@ -71,8 +71,12 @@
 - การดู Log ของ container 
 
       docker logs container-id
-      
-- container restrt (no, on-failure, unless-stopped, always)
+
+- run และ remove container อัตโนมัติเมื่อ container หยุดทำงานหรือไม่ได้ใช้
+
+      docker run -d <b>--rm</b> -p 1000:9000 spring-boot-add
+
+- container restart (no, on-failure, unless-stopped, always)
 
       docker run -d --restart always redis
       
