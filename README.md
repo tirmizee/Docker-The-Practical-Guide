@@ -67,7 +67,11 @@
 - การดู Time Zone ของ container 
 
       docker exec -it container-id cat /etc/timezone
-      
+
+- การดู port ของ container
+
+      docker container port webhost
+
 - การดู Log ของ container 
 
       docker logs container-id
