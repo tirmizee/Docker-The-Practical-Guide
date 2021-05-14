@@ -17,3 +17,7 @@
 Show network 
 
     docker network ls
+
+Inspect a network 
+
+    docker network inspect <network>
