@@ -29,3 +29,7 @@ Create a network
 Attach a network to container 
 
     docker network connect
+    
+Detach a network from contaner 
+
+    docker network disconnect
