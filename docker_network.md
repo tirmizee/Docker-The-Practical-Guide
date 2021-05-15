@@ -12,6 +12,9 @@
 
 #### Default security
 
+- คอนเทนเนอร์ของแอปมารวมไว้ในเครือข่ายเดียว
+- เปิดเผยพอร์ตบนโฮสต์ใช้โดยเฉพาะเท่านั้น
+
 ### Docker network commands
 
 Show network 
