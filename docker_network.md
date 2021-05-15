@@ -28,8 +28,8 @@ Create a network
 
 Attach a network to container 
 
-    docker network connect
+    docker network connect <network> <container>
     
 Detach a network from contaner 
 
-    docker network disconnect
+    docker network disconnect <network> <container>
