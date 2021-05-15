@@ -27,7 +27,7 @@ Inspect a network
 
 Create a network
 
-    docker network create --driver
+    docker network create --driver //ไม่จำเป็นต้องใช้ --driver
 
 Attach a network to container 
 
