@@ -32,7 +32,7 @@ Inspect a network
 
 Create a network
 
-    docker network create --driver //ไม่จำเป็นต้องใช้ --driver
+    docker network create --driver //ไม่จำเป็นต้องใช้ --driver default คือ bridge
 
 Attach a network to container 
 
