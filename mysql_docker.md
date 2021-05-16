@@ -6,6 +6,8 @@
 
     docker volume ls
     
+    docker run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql  mysql
+    
 ### Workbench
 
     ALTER USER root IDENTIFIED WITH mysql_native_password BY 'root';
