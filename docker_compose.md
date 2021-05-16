@@ -24,6 +24,7 @@ services: # containers
    servicename: # ชื่อที่จำง่าย ชื่อ DNS ภายใน network เหมือนกับ --name ใน docker run 
       image: # optional ถ้าไม่ใช้ build
       command: # optional แทนที่ CMD เริ่มต้นที่ระบุโดย Image
+      networks: # optional
       environment: # optional เหมือนกับ -e ใน docker run
       volumes: # optional เหมือนกับ -v ใน docker run
    servicename2:
