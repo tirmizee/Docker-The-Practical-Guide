@@ -15,7 +15,11 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
 
 ### template yml
 
+```yml
 
+version : aaa
+
+```
 
 ### Reference
 
