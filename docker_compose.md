@@ -26,6 +26,9 @@ services: # containers
       environment: # optional เหมือนกับ -e ใน docker run
       volumes: # optional เหมือนกับ -v ใน docker run
    servicename2:
+   
+   volumes: # optional เหมือนกับ docker volume create
+   networks: # optional เหมือนกับ docker network create
 ```
 
 ### Reference
