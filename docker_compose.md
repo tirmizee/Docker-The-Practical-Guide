@@ -46,3 +46,4 @@ services: # containers
 
 - https://yaml.org/refcard.html
 - https://yaml.org/start.html
+- https://stackoverflow.com/questions/39988844/docker-compose-up-vs-docker-compose-up-build-vs-docker-compose-build-no-cach
