@@ -18,6 +18,10 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
 - คำสั่งที่พบบ่อยที่สุดของ docker-compose
    - docker-compose up # setup volumes/networks and start all containers
    - docker-compose down # stop all containers and remove cont/vol/net
+- หากโปรเจ็กต์ทั้งหมดมี Dockerfile และ docker-compose.yml
+"การเริ่มต้นใช้งานของนักพัฒนาคนใหม่" ก็แค่ 
+   - git clone github.com/some/software
+   - docker-compose up
 
 ### template yml
 
