@@ -17,6 +17,7 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
 - ไม่ใช่เครื่องมือระดับ production แต่เหมาะอย่างยิ่งสำหรับการพัฒนาและทดสอบใน local
 - คำสั่งที่พบบ่อยที่สุดของ docker-compose
    - docker-compose up # setup volumes/networks and start all containers
+   - docker-compose down # stop all containers and remove cont/vol/net
 
 ### template yml
 
