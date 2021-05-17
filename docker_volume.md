@@ -8,3 +8,7 @@
         run -v /Users/bret/stuff:/path/container (mac/linux)
 
         run -v //c/Users/bret/stuff:/path/container (windows)
+        
+        run -v $(pwd):/app (macOS/Linux)
+
+        run -v "%cd%":/app (Windows)
