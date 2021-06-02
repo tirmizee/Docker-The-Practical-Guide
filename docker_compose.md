@@ -25,11 +25,11 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
 
 - xxx
 
-      sudo docker-compose up
+      docker-compose up
       
 - xxx
 
-      sudo docker-compose up -d 
+      docker-compose up -d 
       
 - xxx
 
