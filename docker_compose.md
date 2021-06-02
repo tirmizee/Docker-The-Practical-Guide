@@ -23,6 +23,15 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
    - git clone github.com/some/software
    - docker-compose up
 
+- xxx
+
+      sudo docker-compose up
+      
+- xxx
+
+      sudo docker-compose up -d 
+      
+      
 ### template yml
 
 ```yml
