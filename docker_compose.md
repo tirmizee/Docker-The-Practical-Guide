@@ -31,7 +31,11 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
 
       sudo docker-compose up -d 
       
+- xxx
+
+      docker-compose ps
       
+
 ### template yml
 
 ```yml
