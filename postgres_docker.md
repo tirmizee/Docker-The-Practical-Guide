@@ -10,12 +10,13 @@
     services: 
        postgres-db:
           image: postgres
-          environment:
+          environment: 
              POSTGRES_USER: root
              POSTGRES_PASSWORD: password
              POSTGRES_DB: jobdb
-           volumes: postgres-data:/var/lib/postgresql/data
+          volumes: 
+             - postgres-data:/var/lib/postgresql/data
 
-    volumes
+    volumes:
        postgres-data:
           driver: local
