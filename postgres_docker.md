@@ -14,6 +14,8 @@
              POSTGRES_USER: root
              POSTGRES_PASSWORD: password
              POSTGRES_DB: jobdb
+          ports:
+             - 5432:5432
           volumes: 
              - postgres-data:/var/lib/postgresql/data
 
