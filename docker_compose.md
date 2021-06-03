@@ -23,7 +23,11 @@ Docker Compose เป็นเครื่องมือสำหรับเ�
    - git clone github.com/some/software
    - docker-compose up
 
-- xxx
+- สร้าง image ทั้งหมดที่ระบุใน docker-compose.yml
+
+      docker-compose build
+
+- run container ทั้งหมดที่ระบุใน docker-compose.yml
 
       docker-compose up
       
