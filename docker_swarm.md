@@ -1,6 +1,9 @@
 
 ### docker swarm commands
 
+- node คือ เครื่อง
+- service คือ 
+
 ##### เริ่มต้น docker swarm
 
       docker swarm init
