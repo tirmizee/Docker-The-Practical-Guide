@@ -1,7 +1,7 @@
 
 ### docker swarm commands
 
-- node 
+- node คือ instance ของ Docker engine ที่เข้าร่วมใน Docker swarm. สามารถเรียกใช้ node อย่างน้อยหนึ่งโหนดบนคอมพิวเตอร์จริงเครื่องเดียวหรือเซิร์ฟเวอร์คลาวด์
 - service
 
 ##### เริ่มต้น docker swarm
