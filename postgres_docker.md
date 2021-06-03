@@ -14,7 +14,8 @@
              POSTGRES_USER: root
              POSTGRES_PASSWORD: password
              POSTGRES_DB: jobdb
-           volums: postgres-data:/var/lib/postgresql/data
+           volumes: postgres-data:/var/lib/postgresql/data
 
-    volums
+    volumes
        postgres-data:
+          driver: local
