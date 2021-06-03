@@ -5,6 +5,6 @@
 
       docker swarm init
 
-. 
+##### แสดง node ของ docker swarm
 
       docker node ls
