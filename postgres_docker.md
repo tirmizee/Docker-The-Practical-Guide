@@ -16,6 +16,5 @@
              POSTGRES_DB: jobdb
            volums: postgres-data:/var/lib/postgresql/data
 
-
     volums
        postgres-data:
