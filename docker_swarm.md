@@ -11,3 +11,8 @@
 ##### แสดง node ของ docker swarm
 
       docker node ls
+
+#### xxxx
+
+      docker service ps eager_volhard
+
