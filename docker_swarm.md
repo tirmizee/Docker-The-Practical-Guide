@@ -14,5 +14,5 @@
 
 #### xxxx
 
-      docker service ps eager_volhard
+      docker service ps <NAME>
 
