@@ -38,7 +38,7 @@
 
       docker top [CONTAINER]
 
-- สดงสถิติการใช้ทรัพยากรแบบสดของ
+- แสดงสถิติการใช้ทรัพยากรแบบสดของ
 
       docker stats [CONTAINER]
  
