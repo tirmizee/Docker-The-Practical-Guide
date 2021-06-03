@@ -1,8 +1,8 @@
 
 ### docker swarm commands
 
-- node คือ เครื่อง
-- service คือ 
+- node 
+- service
 
 ##### เริ่มต้น docker swarm
 
@@ -12,7 +12,14 @@
 
       docker node ls
 
-#### xxxx
+##### xxx
 
-      docker service ps <NAME>
+      docker service ls
 
+##### xxxx
+
+      docker service ps <ID|NAME>
+
+##### xxxx 
+
+      docker service update <ID> --replicas 3 
