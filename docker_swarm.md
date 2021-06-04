@@ -12,9 +12,14 @@
 
       docker node ls
 
-##### แสดงการทำงาน service/container ของ docker swarm
+##### แสดงการทำงาน service ของ docker swarm
 
       docker service ls
+
+
+##### สร้าง service ของ docker swarm
+
+      docker service create alpline ping 8.8.8.8
 
 ##### แสดงการทำงาน service ที่ระบุ
 
