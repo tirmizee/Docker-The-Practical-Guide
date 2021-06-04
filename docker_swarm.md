@@ -8,18 +8,18 @@
 
       docker swarm init
 
-##### แสดง node ของ docker swarm
+##### แสดงการทำงาน node ของ docker swarm
 
       docker node ls
 
-##### xxx
+##### แสดงการทำงาน service/container ของ docker swarm
 
       docker service ls
 
-##### xxxx
+##### แสดงการทำงาน service ที่ระบุ
 
       docker service ps <ID|NAME>
 
-##### xxxx 
+##### แก้ไข service ที่ระบุ โดยการเพิ่มจำนวน service
 
       docker service update <ID> --replicas 3 
