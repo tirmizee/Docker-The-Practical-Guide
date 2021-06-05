@@ -35,4 +35,5 @@
 
 - ##### ทำการสร้าง swarm node1 เป็น manager
 
-      $ docker swarm init --advertise-addr=192.168.0.28
+      เริ่มต้น mode docker swarm
+      docker swarm init --advertise-addr=192.168.0.28
