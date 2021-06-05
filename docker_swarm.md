@@ -69,3 +69,6 @@
 
       run คำสั่งนี้ใน node manager ใดๆ เพื่อสร้าง token สำหรับ join manager
       docker swarm join-token manager
+
+      run คำสั่งต่อไปนี้ใน node4 เพื่อ join manager node
+      docker swarm join --token SWMTKN-1-5r3sdl8qx8qjzcwy54rywa62m3lt83sbyvu6mm2jej2xbpccpl-55di819h02d9wt3wf0bybuk7u 192.168.0.28:2377
