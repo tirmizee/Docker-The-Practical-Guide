@@ -44,3 +44,7 @@
 - ##### ทำการสร้าง swarm node2 เป็น worker node
 
       docker swarm join --token SWMTKN-1-5r3sdl8qx8qjzcwy54rywa62m3lt83sbyvu6mm2jej2xbpccpl-6bqbothq4pf39xsg8xl1ozjfo 192.168.0.28:2377
+
+- ##### ทำการสร้าง swarm node3 เป็น worker node
+
+      docker swarm join --token SWMTKN-1-5r3sdl8qx8qjzcwy54rywa62m3lt83sbyvu6mm2jej2xbpccpl-6bqbothq4pf39xsg8xl1ozjfo 192.168.0.28:2377
