@@ -29,6 +29,10 @@
 
       docker service update <ID> --replicas 3 
 
+#### Manager status 
+      - Leader คือ node ตัวจัดการหลัก
+      - Reachable คือ nodeผู้จัดการที่เข้าร่วม joint-manager. หากโหนดผู้นำไม่พร้อมใช้งาน โหนดนี้จะมีสิทธิ์ได้รับการเลือกตั้งเป็นผู้นำคนใหม่
+
 #### Docker swarm cluster (Play With Doker)
 
 - ##### สร้างเครื่อง 3 เครื่อง (node1, node2, node3, node4)
