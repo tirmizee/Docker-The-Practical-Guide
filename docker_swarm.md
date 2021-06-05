@@ -85,7 +85,7 @@
       แสดงรายการของ service
       docker service ls
       
-      แสดงข้อมูลของ some_service_name service
+      แสดง tasks ของ some_service_name service
       docker service  ps some_service_name
       
 ### Reference
