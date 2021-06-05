@@ -1,4 +1,4 @@
-#### Voulume type
+#### Volume type
 
 - bind
 - nfs
