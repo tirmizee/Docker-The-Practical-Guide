@@ -29,6 +29,10 @@
 
       docker service update <ID> --replicas 3 
 
+##### ลบ service ที่ทำงานบน swarm
+
+      docker service rm helloworld
+
 #### Manager status 
       - Leader คือ node ตัวจัดการหลัก
       - Reachable คือ nodeผู้จัดการที่เข้าร่วม joint-manager. หากโหนดผู้นำไม่พร้อมใช้งาน โหนดนี้จะมีสิทธิ์ได้รับการเลือกตั้งเป็นผู้นำคนใหม่
