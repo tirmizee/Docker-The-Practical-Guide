@@ -77,6 +77,10 @@
       run คำสั่งต่อไปนี้ใน node4 เพื่อ join manager node
       docker swarm join --token SWMTKN-1-5r3sdl8qx8qjzcwy54rywa62m3lt83sbyvu6mm2jej2xbpccpl-55di819h02d9wt3wf0bybuk7u 192.168.0.28:2377
 
+- ##### run คำสั่งสร้าง service replicate 3 ที่ manager node ใดๆ
+
+      docker service create --replicas 3 alpine ping 8.8.8.8
+
 ### Reference
 
 - https://stackoverflow.com/questions/49596962/what-is-the-difference-between-manager-leader-to-manager
