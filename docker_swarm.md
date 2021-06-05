@@ -28,3 +28,9 @@
 ##### แก้ไข service ที่ระบุ โดยการเพิ่มจำนวน service
 
       docker service update <ID> --replicas 3 
+
+#### Docker swarm lab (Play With Doker)
+
+- ##### สร้างเครื่อง 3 เครื่อง (node1, node2, node3)
+
+-
