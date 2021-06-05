@@ -21,6 +21,10 @@
 
       docker service create alpline ping 8.8.8.8
 
+##### สร้าง service ให้ทำงานอยู่บน node ที่ต้องการ
+
+      docker service create --constraint 'node.hostname==node2' alpine ping 8.8.8.8
+
 ##### แสดงการทำงาน service ที่ระบุ
 
       docker service ps <ID|NAME>
@@ -34,6 +38,7 @@
       docker service rm helloworld
 
 #### Manager status 
+
       - Leader คือ node ตัวจัดการหลัก
       - Reachable คือ nodeผู้จัดการที่เข้าร่วม joint-manager. หากโหนดผู้นำไม่พร้อมใช้งาน โหนดนี้จะมีสิทธิ์ได้รับการเลือกตั้งเป็นผู้นำคนใหม่
 
