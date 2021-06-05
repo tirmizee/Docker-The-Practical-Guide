@@ -8,6 +8,10 @@
 
       docker swarm init
 
+##### เริ่มต้น docker swarm --autolock ตั้งค่าเพื่อเปิดใช้งานการล็อกอัตโนมัติของ manager node เมื่อ Docker รีสตาร์ท
+
+      docker swarm init --autolock
+
 ##### แสดงการทำงาน node ของ docker swarm
 
       docker node ls
