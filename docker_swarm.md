@@ -64,3 +64,8 @@
       
       แสดงรายการ node 
       docker node ls
+
+- ##### ทำการสร้าง swarm node4 เป็น manager
+
+      run คำสั่งนี้ใน node manager ใดๆ เพื่อสร้าง token สำหรับ join manager
+      docker swarm join-token manager
