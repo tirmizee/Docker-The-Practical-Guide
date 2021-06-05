@@ -29,8 +29,10 @@
 
       docker service update <ID> --replicas 3 
 
-#### Docker swarm lab (Play With Doker)
+#### Docker swarm cluster (Play With Doker)
 
 - ##### สร้างเครื่อง 3 เครื่อง (node1, node2, node3)
 
--
+- ##### ทำการสร้าง swarm node1 เป็น manager
+
+      $ docker swarm init --advertise-addr=192.168.0.28
