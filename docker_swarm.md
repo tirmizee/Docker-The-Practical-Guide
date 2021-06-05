@@ -49,10 +49,18 @@
 
       docker swarm join --token SWMTKN-1-5r3sdl8qx8qjzcwy54rywa62m3lt83sbyvu6mm2jej2xbpccpl-6bqbothq4pf39xsg8xl1ozjfo 192.168.0.28:2377
 
-- ##### ทำการ promote node2 ให้เป็น manager
+- ##### ทำการ update node2 ให้เป็น manager
 
       แก้ไข node2 จาก worker ให้เป็น manager
       docker node update --role manager node2
+      
+      แสดงรายการ node 
+      docker node ls
+
+- ##### ทำการ update node2 ให้เป็น worker
+
+      แก้ไข node2 จาก manager ให้เป็น worker
+      docker node update --role worker node2
       
       แสดงรายการ node 
       docker node ls
