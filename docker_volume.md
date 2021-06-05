@@ -1,5 +1,9 @@
+#### Voulume type
+
+- bind
+- nfs
     
-####  Bind Mounting
+#####  Bind Mounting
 
 - Maps host file ไปยัง container file
 - ไม่สามารถใช้ใน Dockerfile ได้ต้องอยู่ในคอนเทนเนอร์
