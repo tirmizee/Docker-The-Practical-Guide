@@ -84,7 +84,10 @@
       
       แสดงรายการของ service
       docker service ls
-
+      
+      แสดงข้อมูลของ some_service_name service
+      docker service  ps some_service_name
+      
 ### Reference
 
 - https://stackoverflow.com/questions/49596962/what-is-the-difference-between-manager-leader-to-manager
