@@ -31,7 +31,7 @@
 
 #### Docker swarm cluster (Play With Doker)
 
-- ##### สร้างเครื่อง 3 เครื่อง (node1, node2, node3)
+- ##### สร้างเครื่อง 3 เครื่อง (node1, node2, node3, node4)
 
 - ##### ทำการสร้าง swarm node1 เป็น manager
 
