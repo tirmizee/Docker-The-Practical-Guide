@@ -38,7 +38,7 @@
       เริ่มต้น mode docker swarm
       docker swarm init --advertise-addr=192.168.0.28
       
-      แสดงikpdkiข้อมูลการทำงานของ node node manager เท่านั้นที่ใช้คำสั่งนี้ได้
+      แสดงรายการข้อมูลของ node ซึ่ง node manager เท่านั้นที่ใช้คำสั่งนี้ได้
       docker node ls
  
 - ##### ทำการสร้าง swarm node2 เป็น worker node
