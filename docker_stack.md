@@ -10,7 +10,7 @@
 
 ##### deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
 
-    docker stack deploy -c <compose.yml>
+    docker stack deploy -c <compose.yml> <stack_name>
 
 ##### compose file
 
