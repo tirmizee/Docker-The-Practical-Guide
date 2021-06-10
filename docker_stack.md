@@ -7,10 +7,12 @@
 - docker-compose cli ไม่จำเป็นสำหรับ docker swarm
 
 
-##### stack commands
+
+##### deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
+
+    docker stack deploy -c <compose.yml>
 
 ##### compose file
-
 
 ### Reference
 
