@@ -6,7 +6,10 @@
 - compose ละเว้นคำสั่ง deploy ส่วน stack ละเว้นคำสั่ง build
 - docker-compose cli ไม่จำเป็นสำหรับ docker swarm
 
+### Stack ignore command
 
+- build
+- depends_on
 
 ##### deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
 
