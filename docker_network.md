@@ -41,7 +41,11 @@ Attach a network to container
 Detach a network from contaner 
 
     docker network disconnect <network> <container>
-    
+
+#### flag
+
+- attachable คอนเทนเนอร์ที่อยู่นอกบริการ Swarm สามารถเข้าถึงเครือข่ายได้
+
 #### Reference
 
 - https://medium.com/readmoreth/docker-connect-database-timeout-b23f781dcff7#:~:text=%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%82%E0%B8%AD%E0%B8%87%20Docker%20Network&text=Bridge%20%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%99%20container,Gateway%20%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%87
