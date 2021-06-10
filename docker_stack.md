@@ -6,4 +6,7 @@
 - compose ละเว้นคำสั่ง deploy ส่วน stack ละเว้นคำสั่ง build
 - docker-compose cli ไม่จำเป็นสำหรับ docker swarm
 
+
+##### stack commands
+
 ##### compose file
