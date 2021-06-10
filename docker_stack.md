@@ -5,3 +5,5 @@
 - ใช้ docker stack deploy แทน docker service create
 - compose ละเว้นคำสั่ง deploy ส่วน stack ละเว้นคำสั่ง build
 - docker-compose cli ไม่จำเป็นสำหรับ docker swarm
+
+##### compose file
