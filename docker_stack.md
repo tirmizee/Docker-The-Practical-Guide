@@ -14,10 +14,10 @@
 ### Stack commands
 
 - docker stack deploy = deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
-- docker stack ls
-- docker stack ps
-- docker stack rm
-- docker stack services
+- docker stack ls = แสดงรายการ stacks ทั้งหมด
+- docker stack ps = แสดงรายการ task ใน stack
+- docker stack rm = ลบ stack
+- docker stack services = แสดงรายการ service ใน stack
 
 ##### deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
 
