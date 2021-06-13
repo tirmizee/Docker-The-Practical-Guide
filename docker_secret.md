@@ -4,6 +4,15 @@
 - สามารถใช้ Docker secret เพื่อจัดการข้อมูลนี้จากส่วนกลางและส่งไปยังคอนเทนเนอร์ที่ต้องการเข้าถึงได้อย่างปลอดภัย
 - Docker secret ใช้ได้เฉพาะกับ Docker swarm เท่านั้น
 
+#### docker secret commands
+
+- docker secret create
+- docker secret inspect
+- docker secret ls
+- docker secret rm
+- --secret flag สำหรับ docker service create
+- --secret-add and --secret-rm flags สำหรับ docker service update
+
 ##### แสดงรายการ secret ทั้งหมด
 
     docker secret ls
