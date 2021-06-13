@@ -38,6 +38,8 @@
 
 #### วิธีใช้ secret ใน swarm service 
 
-- ##### ใช้ secret ผ่าน command ตอนสร้าง service
+- ##### การใช้ secret กับ service
 
         docker service create --name psql --secret psql_user --secret psql_pass -e POSTGRES_PASSWORD_FILE=/run/secrets/psql_pass -e POSTGRES_USER_FILE=/run/secrets/psql_user postgres 
+
+- ##### การใช้ secret กับ stack
