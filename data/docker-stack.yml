@@ -16,4 +16,4 @@ version: '3.1'
      secret_user:
         external: true
      secret_pass:
-        external: tru
+        external: true
