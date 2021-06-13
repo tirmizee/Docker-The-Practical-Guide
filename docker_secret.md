@@ -13,11 +13,15 @@
 - --secret flag สำหรับ docker service create
 - --secret-add and --secret-rm flags สำหรับ docker service update
 
-##### แสดงรายการ secret ทั้งหมด
+#### docker secret ls
+
+- ##### แสดงรายการ secret ทั้งหมด
 
     docker secret ls
+    
+#### docker secret create
 
-##### คำสั่งสร้าง secret อ่านค่าจาก command 
+- ##### คำสั่งสร้าง secret อ่านค่าจาก command 
 
     
     printf zaq12wsx | docker secret create my_secret -
@@ -25,4 +29,4 @@
     หากไม่มี printf command ให่ใช้ echo แทน
     echo zaq12wsx | docker secret create my_secret -
     
-##### คำสั่งสร้าง secret อ่านข้อมูลจาก file
+- ##### คำสั่งสร้าง secret อ่านข้อมูลจาก file
