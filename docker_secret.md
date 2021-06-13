@@ -11,7 +11,7 @@
 - docker secret ls
 - docker secret rm
 - --secret flag สำหรับ docker service create
-- --secret-add and --secret-rm flags สำหรับ docker service update
+- --secret-add และ --secret-rm flags สำหรับ docker service update
 
 #### docker secret ls
 
