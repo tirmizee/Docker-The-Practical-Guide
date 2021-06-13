@@ -36,6 +36,8 @@
         
         docker secret create sql_secret secret.txt
 
-#### วิธีการใช้ secret in service ของ swarm
+#### วิธีใช้ secret ใน swarm service 
+
+- ##### ใช้ secret ผ่าน command ตอนสรา้ง service
 
         docker service create --name psql --secret psql_user --secret psql_pass -e POSTGRES_PASSWORD_FILE=/run/secrets/psql_pass -e POSTGRES_USER_FILE=/run/secrets/psql_user postgres 
