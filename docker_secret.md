@@ -31,6 +31,8 @@
     
 - ##### คำสั่งสร้าง secret อ่านข้อมูลจาก file secret.txt
 
+        echo "zaq12wsx" > secret.txt
+
         cat secret.txt
         zaq12wsx
         
