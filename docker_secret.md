@@ -45,3 +45,27 @@
         docker service create --name psql --secret psql_user --secret psql_pass -e POSTGRES_PASSWORD_FILE=/run/secrets/psql_pass -e POSTGRES_USER_FILE=/run/secrets/psql_user postgres 
 
 - ##### การใช้ secret กับ stack
+
+        version: '3.1'
+
+        services:
+           postgres-db:
+              image: postgres
+              secrets:
+                 - secret_user
+                 - secret_pass
+              environment:
+                 POSTGRES_USER_FILE: /run/secrets/secret_user
+                 POSTGRES_PASSWORD_FILE: /run/secrets/secret_pass
+
+        secrets:
+           secret_user:
+              file: ./secret_user.txt
+           secret_pass: ./secret_pass.txt
+              file:
+
+        #secrets:
+        #   secret_user:
+        #      external: true
+        #   secret_pass:
+        #      external: true
