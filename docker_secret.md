@@ -30,3 +30,8 @@
         echo zaq12wsx | docker secret create my_secret -
     
 - ##### คำสั่งสร้าง secret อ่านข้อมูลจาก file secret.txt
+
+        cat secret.txt
+        zaq12wsx
+        
+        docker secret create sql_secret secret.txt
