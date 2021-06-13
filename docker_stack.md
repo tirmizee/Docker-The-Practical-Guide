@@ -11,6 +11,14 @@
 - build
 - depends_on
 
+### Stack commands
+
+- docker stack deploy = deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
+- docker stack ls
+- docker stack ps
+- docker stack rm
+- docker stack services
+
 ##### deploy stack ใหม่หรืออัปเดต stack ที่มีอยู่
 
     docker stack deploy -c <compose.yml> <stack_name>
