@@ -13,3 +13,5 @@
     
     หากไม่มี printf command ให่ใช้ echo แทน
     echo zaq12wsx | docker secret create my_secret -
+    
+##### คำสั่งสร้าง secret อ่านข้อมูลจาก file
