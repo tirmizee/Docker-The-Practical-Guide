@@ -10,6 +10,7 @@ version: '3.1'
         environment:
            POSTGRES_USER_FILE: /run/secrets/secret_user
            POSTGRES_PASSWORD_FILE: /run/secrets/secret_pass
+           POSTGRES_DB: test
 
   secrets:
      secret_user:
