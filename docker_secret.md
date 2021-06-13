@@ -46,7 +46,6 @@
 
 - ##### การใช้ secret กับ stack
 
-     สร้าง stack.yml
 
         version: '3.1'
 
@@ -71,3 +70,6 @@
         #      external: true
         #   secret_pass:
         #      external: true
+     
+     
+        docker stack deploy -c <stack.yml> my_stack
