@@ -46,7 +46,7 @@
 
 - ##### การใช้ secret กับ stack
 
-สร้าง stack.yml
+     สร้าง stack.yml
 
         version: '3.1'
 
