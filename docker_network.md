@@ -38,23 +38,23 @@
 - <b>docker network disconnect</b>
 - <b>docker network prune</b>
 
-แสดงรายการ network ทั้งหมด
+##### แสดงรายการ network ทั้งหมด
 
     docker network ls
 
-ดูข้อมูลรายละเอียดของ network 
+##### ดูข้อมูลรายละเอียดของ network 
 
     docker network inspect <network>
 
-สร้าง network
+##### สร้าง network
 
     docker network create --driver //ไม่จำเป็นต้องใช้ --driver default คือ bridge
 
-Attach a network to container 
+##### Attach a network to container 
 
     docker network connect <network> <container>
     
-Detach a network from contaner 
+##### Detach a network from contaner 
 
     docker network disconnect <network> <container>
 
