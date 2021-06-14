@@ -23,13 +23,20 @@
 
 #### Network driver overview
 
-
 - bridge เป็น network driver เริ่มต้นหากไม่ได้ระบุ driver อย่างชัดเจน bridge มักจะใช้เมื่อแอปพลิเคชันทำงานในคอนเทนเนอร์แบบสแตนด์อโลนที่จำเป็นต้องสื่อสารระหว่างกัน.
 - overlay 
 - host
 
 
 ### Docker network commands
+
+- <b>docker network ls</b>
+- <b>docker network create</b>
+- <b>docker network rm</b>
+- <b>docker network inspect</b>
+- <b>docker network connect</b>
+- <b>docker network disconnect</b>
+- <b>docker network prune</b>
 
 Show network 
 
