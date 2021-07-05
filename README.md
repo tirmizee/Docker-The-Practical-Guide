@@ -95,3 +95,4 @@ Ref : https://docs.docker.com/engine/reference/commandline/logs/
 - https://phoenixnap.com/kb/list-of-docker-commands-cheat-sheet
 - https://stackoverflow.com/questions/52862705/what-does-volume-inside-dockerfile-do
 - https://www.katacoda.com/courses/ubuntu/playground1804
+- https://developers.refinitiv.com/en/article-catalog/article/docker-tips-for-application-testing?utm_campaign=500092_DeveloperPortalPromoOrganicSocial&elqCampaignId=15458&utm_source=&utm_medium=Organic%20Social&utm_content=&utm_term=
